@@ -9,6 +9,30 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
+@media (max-width: 350px)
+{
+  input{
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 600px){
+  button{
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  #keys{
+    padding: 15px;
+    gap: 5px;
+  }
+  #display{
+    height: 25px;
+  }
+  #calculator{
+    width: 220px;
+  }
+}
+
 
 #keys{
   display: grid;
@@ -29,7 +53,7 @@ button{
 #display{
   width: 100%;
   padding: 20px;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: left;
   border: none;
   background-color: hsl(0, 0%, 20%);
