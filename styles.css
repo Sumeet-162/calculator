@@ -8,6 +8,8 @@ button{
   font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 350px)
 {
@@ -27,9 +29,11 @@ button{
   }
   #display{
     height: 25px;
+    font-size: 2rem;
   }
   #calculator{
     width: 260px;
+    padding-right: 0px;
   }
 }
 
