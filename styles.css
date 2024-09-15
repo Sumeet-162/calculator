@@ -32,8 +32,8 @@ button{
     font-size: 2rem;
   }
   #calculator{
-    width: 220px;
-    padding-right: 10px;
+    width: 200px;
+    padding-right: 0px;
   }
 }
 
