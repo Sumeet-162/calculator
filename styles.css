@@ -19,8 +19,8 @@ button{
 }
 @media only screen and (max-width: 600px){
   button{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     font-size: 1.5rem;
   }
   #keys{
@@ -32,7 +32,7 @@ button{
     font-size: 2rem;
   }
   #calculator{
-    width: 260px;
+    width: 200px;
     padding-right: 0px;
   }
 }
@@ -51,7 +51,7 @@ button{
   border-radius: 15px;
   max-width: 320px;
   overflow: hidden;
-  padding-right: 25px;
+  padding-right: 35px;
 }
 
 #display{
